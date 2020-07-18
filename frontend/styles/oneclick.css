@@ -1,0 +1,32 @@
+.oneclick-card{
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.01);
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+    width: calc(50% - 10px);
+}
+
+.oneclick-card img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.oneclick-card pre{
+    white-space: pre-wrap;
+    padding: 2px;
+}
+
+.oneclick-card vaadin-button{
+    margin-left: auto;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    .oneclick-card{
+        width: 100%;
+    }
+}
